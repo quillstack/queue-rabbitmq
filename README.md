@@ -55,7 +55,8 @@ $queue = new RabbitQueue($connection);
 
 $queue->push(new SendWelcomeEmail('radek@quillstack.com'));
 
-$envelope = $queue->pop();     // proba 1
+$envelope = $queue->pop();
+$envelope->attempts;           // 1
 $queue->ack($envelope);        // true
 $queue->size();                // 0
 ```
