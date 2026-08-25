@@ -4,7 +4,7 @@
 [![Latest Version](https://img.shields.io/packagist/v/quillstack/queue-rabbitmq.svg)](https://packagist.org/packages/quillstack/queue-rabbitmq)
 [![Downloads](https://img.shields.io/packagist/dt/quillstack/queue-rabbitmq.svg)](https://packagist.org/packages/quillstack/queue-rabbitmq)
 [![PHP Version](https://img.shields.io/packagist/php-v/quillstack/queue-rabbitmq)](https://packagist.org/packages/quillstack/queue-rabbitmq)
-[![StyleCI](https://github.styleci.io/repos/STYLECI_ID/shield?branch=main)](https://github.styleci.io/repos/STYLECI_ID?branch=main)
+[![StyleCI](https://github.styleci.io/repos/1346582474/shield?branch=main)](https://github.styleci.io/repos/1346582474?branch=main)
 [![CodeFactor](https://www.codefactor.io/repository/github/quillstack/queue-rabbitmq/badge)](https://www.codefactor.io/repository/github/quillstack/queue-rabbitmq)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=quillstack_queue-rabbitmq&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=quillstack_queue-rabbitmq)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=quillstack_queue-rabbitmq&metric=coverage)](https://sonarcloud.io/summary/new_code?id=quillstack_queue-rabbitmq)
