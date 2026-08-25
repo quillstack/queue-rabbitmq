@@ -1,0 +1,39 @@
+{
+    "name": "quillstack/queue-rabbitmq",
+    "description": "A RabbitMQ driver for quillstack/queue: the broker holds the message until a worker says what became of it.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["queue", "rabbitmq", "amqp", "messaging", "quillstack", "php8"],
+    "homepage": "https://quillstack.org/packages/queue-rabbitmq",
+    "authors": [
+        {
+            "name": "Radek Ziemniewicz",
+            "email": "radek@quillstack.org"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "php-amqplib/php-amqplib": "^3.7",
+        "quillstack/queue": "^0.8"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0",
+        "quillstack/unit-tests": "^0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quillstack\\QueueRabbitMq\\": "src/",
+            "Quillstack\\QueueRabbitMq\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "unit-tests",
+        "test:coverage": "phpdbg -qrr ./vendor/bin/unit-tests",
+        "stan": "phpstan analyse"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    }
+}
